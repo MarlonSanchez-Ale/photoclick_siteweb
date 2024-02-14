@@ -5,10 +5,11 @@ import PropTypes from 'prop-types';
 
 function FormatLayout({ children }) {
     return (
-        <div>
+        <div className="flex flex-col w-full ">
             {/* Contenido principal */}
+
             <Header />
-            <main>{children}</main>
+            <main className="">{children}</main>
             <Footer />
         </div>
     )

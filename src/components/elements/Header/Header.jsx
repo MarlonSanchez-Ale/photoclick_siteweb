@@ -22,15 +22,18 @@ function Header() {
                 <a href="#home" className="">
                     Home
                 </a>
-                <a href="#aboutUs" className="">
+                <a href="#about" className="">
                     About Us
                 </a>
                 <a href="#services" className="">
+                    Service
+                </a>
+                <a href="#gallery" className="">
                     Gallery
                 </a>
-                <button className='btn_nav'>
+                <a href="#contact" className='btn_nav'>
                     Contact
-                </button>
+                </a>
             </nav>
             <button
                 onClick={() => setShowMenu(!showMenu)}

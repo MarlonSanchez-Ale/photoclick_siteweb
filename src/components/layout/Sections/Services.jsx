@@ -8,7 +8,7 @@ import {
 
 export default function Services() {
     return (
-        <section className="bg-gray-100 p-10">
+        <section id="services" className="bg-gray-100 p-10">
             <div className="flex flex-col items-center justify-center my-10 gap-8 p-5">
                 <h1 className="title text-center">
                     Our service

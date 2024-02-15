@@ -7,7 +7,7 @@ import SubTitle from "../../elements/Titles/SubTitle";
 
 function Hero() {
     return (
-        <section className="min-h-[90vh] grid grid-cols-1 xl:grid-cols-8">
+        <section id="home" className="min-h-[90vh] grid grid-cols-1 xl:grid-cols-8">
             {/*Information */}
             <div className="md:col-span-5 flex items-center justify-center">
                 <div className="flex flex-col gap-8 sm:text-center md:text-start p-10">
@@ -22,15 +22,17 @@ function Hero() {
                         </span>
                     </h1>
                     <SubTitle>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        Welcome to PhotoClick, where the Art of Photography Transcends Time, Weaving a Tapestry of Unforgettable Moments.
+                        Our Skilled Lensmiths Illuminate Your World, Expertly Capturing the Essence of Your Story, Creating Timeless
+                        Portraits and Preserving Precious Memories.
                     </SubTitle>
                     <div className="flex flex-row gap-4 sm:justify-center md:justify-start">
-                        <button className="btn_primary  ">
+                        <a href="#gallery" className="btn_primary text-center">
                             Portfolio
-                        </button>
-                        <button className="btn_second">
+                        </a>
+                        <a href="#contact" className="btn_second text-center">
                             Contact us
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

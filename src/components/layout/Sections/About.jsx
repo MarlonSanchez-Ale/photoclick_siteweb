@@ -2,7 +2,7 @@
 
 export default function About() {
     return (
-        <section className="min-h-[90vh] grid grid-cols-1 gap-5 xl:grid-cols-8 bg-pc_gray_white">
+        <section id="about" className="min-h-[90vh] grid grid-cols-1 gap-5 xl:grid-cols-8 bg-pc_gray_white">
 
             {/* Image */}
             <div className="md:col-span-4 flex justify-center">
@@ -20,15 +20,16 @@ export default function About() {
                 <div className="flex flex-col gap-8 sm:text-center sm:items-center md:items-start md:text-start p-10">
                     <h1 className="title">About us</h1>
                     <p className="subtitle">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the standard
-                        dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has survived not only
-                        five centuries
+                        Embark on a Visual Odyssey: Where Every Click Resonates with Emotion and Every Frame Tells a Story.
+                        Welcome to PhotoClick, where the Art of Photography Transcends Time, Weaving a Tapestry of Unforgettable
+                        Moments. Our Skilled Lensmiths Illuminate Your World, Expertly Capturing the Essence of Your Story,
+                        Creating Timeless Portraits and Preserving Precious Memories. Step into a Realm Where Every Detail Matters,
+                        and Each Image Speaks a Thousand Words. PhotoClick - Where Photography is an Art, and Your Moments
+                        Are Our Masterpieces.
                     </p>
-                    <button className="btn_primary">
-                        Learn more
-                    </button>
+                    <a href="#contact" className="btn_primary text-center w-48">
+                        {`let's work together`}
+                    </a>
                 </div>
             </div>
 
